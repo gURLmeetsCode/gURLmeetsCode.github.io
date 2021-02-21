@@ -4,13 +4,13 @@ const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>Hi, my name is Forty</h1>
+        <h1>Hi, my name is Natasha</h1>
       </header>
       <div className="content">
         <p>
-          A responsive site template designed by HTML5 UP
-          <br />
-          and released under the Creative Commons.
+          I'm Natasha Kelly and I am a Fullstack Software Engineer! Thank you
+          for visiting my personal website. I am excited to share my love of
+          technology with you.
         </p>
         <ul className="actions">
           <li>
