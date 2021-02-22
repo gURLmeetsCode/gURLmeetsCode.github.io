@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${oldme})` }}>
+            <article>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
@@ -36,7 +36,7 @@ class HomeIndex extends React.Component {
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
@@ -48,7 +48,7 @@ class HomeIndex extends React.Component {
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${gh})` }}>
+            <article>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
@@ -60,7 +60,7 @@ class HomeIndex extends React.Component {
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${conf})` }}>
+            <article>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
