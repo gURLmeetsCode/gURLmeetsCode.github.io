@@ -39,7 +39,7 @@ class HomeIndex extends React.Component {
             <article>
               <Link
                 aria-label="Link to Landing Page"
-                to="/landing"
+                to="/blog"
                 className="link primary"
               >
                 <header className="major">
