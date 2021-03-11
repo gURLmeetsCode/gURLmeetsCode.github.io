@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import Contact from '../components/Contact'
 import BannerLanding from '../components/BannerLanding'
 
 import pic08 from '../assets/images/pic08.jpg'
@@ -115,6 +116,7 @@ const Landing = props => (
         </section>
       </section>
     </div>
+    <Contact />
   </Layout>
 )
 
