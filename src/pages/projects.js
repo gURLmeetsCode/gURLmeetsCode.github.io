@@ -21,7 +21,7 @@ const Projects = props => (
             <img src={gh} alt="gh" />
           </span>
           <h2>Recent projects</h2>
-          <p>Lorem put projects here</p>
+          <p>Stay tuned for upcoming for projects</p>
           <h3>Capstone project</h3>
           <iframe
             width="560"

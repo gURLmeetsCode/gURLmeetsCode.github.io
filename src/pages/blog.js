@@ -17,16 +17,21 @@ export default function Blog({ data }) {
                 <br />
                 If you are interested in my Medium content click this{' '}
                 <a href="https://medium.com/@gURLmeetsCode">link</a>
+                <br/><br/>
+                <p>Here are some of the topics from my blog posts</p>
               </p>
             </header>
             <ul>
-              {posts.map(post => (
+              {/* {posts.map(post => (
                 <li>
                   <Link to={`/blog${post.fields.slug}`}>
                     {post.frontmatter.title}
                   </Link>
                 </li>
-              ))}
+              ))} */}
+              <li>Reduce Vs For-Loop</li>
+              <li>Noob-Tip: anchor tag scraping with Nokogiri</li>
+              <li>Webpack 4 && React Loadable</li>
             </ul>
           </div>
         </section>
